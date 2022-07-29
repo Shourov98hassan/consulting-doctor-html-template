@@ -302,5 +302,20 @@ textarea{
     margin-top: 30px;
     margin-left: 20px;
     bottom: 0;
+    position: relative;
     
+}
+
+.arrow{
+    position: absolute;
+    color: white;
+    margin-left:94%;
+    margin-top: 10%;
+    background-color: lightcoral;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1.5rem;
+    cursor: pointer;
+   
+   
 }
