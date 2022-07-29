@@ -17,6 +17,9 @@ nav {
 .logo img {
     margin: 5px;
     margin-left: 15px;
+    border:2px solid powderblue;
+    border-radius: 50%;
+   
 
 }
 
