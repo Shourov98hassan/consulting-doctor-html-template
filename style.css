@@ -1,0 +1,303 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(65, 114, 121);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    margin: 5px;
+    margin-left: 15px;
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    font-family: Arial, sans-serif;
+
+}
+
+.menu a:hover {
+    text-decoration: underline;
+    color: rgb(233, 215, 218);
+   
+}
+
+.start a {
+
+    text-decoration: none;
+    color: white;
+    background-color: rgb(74, 125, 133);
+    font-size: 1.1rem;
+    margin-right: 25px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.start a:hover{
+    background-color: rgb(60, 110, 117);
+}
+
+.bg-img{
+   height: 600px;
+   width:100%;
+  
+
+   background-image: url(images/doctor30.jpg);
+   background-size: cover;
+   position: relative;
+   
+   
+}
+
+.book-info{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 50px;
+    color: #0ff0d2;
+}
+
+.span{
+    color: rgba(30, 218, 130, 0.993);
+}
+
+.btn{
+    background-color: white;
+    color:black;
+    border: none;
+    padding: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+.left{
+    margin-top: 80px;
+    margin-left: 50px;
+}
+
+.left p,h2{
+    margin-bottom: 5px;
+}
+
+.right{
+    margin-left: 50px;
+   
+}
+
+.right img{
+    border-radius: 10px;
+}
+
+.btn2{
+    background-color: rgb(31, 176, 196);
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn2:hover{
+    background-color: rgb(49, 207, 207);
+}
+
+.main-section{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    
+}
+
+.pic-details{
+    text-align: center;
+    background-color: rgb(65, 114, 121);
+    color: white;
+   
+}
+
+.details{
+    margin-top:180px;
+}
+
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+   
+}
+
+.icons i{
+    font-size: 3rem;
+    color: rgb(65, 114, 121);
+}
+
+.activity-picture{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+    
+}
+
+.activity-picture img{
+    width:100%;
+}
+
+.description{
+    background-color: rgb(65, 114, 121);
+    color: white;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.details-description{
+    position: absolute;
+    text-align: center;
+    margin-top: 120px;
+    margin-left: 250px;
+}
+
+.details-description p{
+    line-height: 25px;
+    font-size: 1.1rem;
+}
+
+.circle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.circle1{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(104, 103, 103);
+    border-radius: 50%;
+    margin-top: 320px;
+}
+
+.circle2{
+    height: 15px;
+    width: 15px;
+    background-color: rgba(63, 61, 61, 0.925);
+    border-radius: 50%;
+    margin-top: 320px;
+    margin-left: 5px;
+}
+
+.circle3{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(26, 25, 25);
+    border-radius: 50%;
+    margin-top: 320px;
+    margin-left: 5px;
+}
+
+.contact{
+    height: 350px;
+    width: 100%;
+    text-align: center;
+    margin-top: 110px;
+
+}
+
+.contact input{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+textarea{
+    width: 300px;
+    height: 60px;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.submit{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+
+.footer-section{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(65, 114, 121);
+    display: grid;
+    grid-template-columns:4fr 3fr 3fr;
+    color: white;
+    padding: 15px;
+}
+
+.footer-left{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.footer-mid{
+    margin-top: 30px;
+    margin-left: 20px;
+    bottom: 0;
+   
+}
+
+.footer-right{
+    margin-top: 30px;
+    margin-left: 20px;
+    bottom: 0;
+    
+}
